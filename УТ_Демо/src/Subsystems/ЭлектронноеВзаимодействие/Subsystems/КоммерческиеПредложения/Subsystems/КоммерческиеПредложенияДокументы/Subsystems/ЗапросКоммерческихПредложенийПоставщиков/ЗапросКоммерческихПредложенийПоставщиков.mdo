@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1df31f8d-7ee1-40e5-8a93-4e21e9dd9f8e">
+  <name>ЗапросКоммерческихПредложенийПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрос коммерческих предложений поставщиков</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ЗапросКоммерческихПредложенийПоставщиков</content>
+  <content>CommonPicture.СтатусТребуетсяВыкупБЭД</content>
+  <content>InformationRegister.СостоянияЗапросовКоммерческихПредложений</content>
+  <content>Catalog.ЗапросКоммерческихПредложенийПоставщиковПрисоединенныеФайлы</content>
+  <content>InformationRegister.ЗаказыПоставщикамПоЗапросам</content>
+  <content>Role.ЧтениеЗапросыКоммерческихПредложенийПоставщиков</content>
+  <content>Role.ДобавлениеИзменениеЗапросыКоммерческихПредложенийПоставщиков</content>
+  <content>Constant.ИспользоватьЗапросыКоммерческихПредложенийПоставщиков</content>
+  <content>FunctionalOption.ИспользоватьЗапросыКоммерческихПредложенийПоставщиков</content>
+  <content>InformationRegister.КоммерческиеПредложенияПоЗапросам</content>
+  <content>DefinedType.ЗаказПоставщикуБЭД</content>
+  <content>DefinedType.СкладыБЭД</content>
+  <content>DefinedType.ОснованияЗапросаКоммерческихПредложенийПоставщиков</content>
+  <parentSubsystem>Subsystem.ЭлектронноеВзаимодействие.Subsystem.КоммерческиеПредложения.Subsystem.КоммерческиеПредложенияДокументы</parentSubsystem>
+</mdclass:Subsystem>

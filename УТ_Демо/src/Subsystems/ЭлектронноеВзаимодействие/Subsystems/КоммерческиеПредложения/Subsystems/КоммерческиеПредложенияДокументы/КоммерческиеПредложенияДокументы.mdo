@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c2cecc8-7dd5-46ad-9def-7b4498552d0e">
+  <name>КоммерческиеПредложенияДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коммерческие предложения документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Enum.СостоянияЗапросаКоммерческихПредложений</content>
+  <content>Enum.ВидыОперацийКоммерческихПредложений</content>
+  <content>DefinedType.ИсточникиПредложенийДляАнализа</content>
+  <content>Enum.ВариантыУказанияСрокаПоставки</content>
+  <content>CommonPicture.УказатьОписаниеВручнуюБЭД</content>
+  <content>CommonPicture.РежимыДобавленияТоваровБЭД</content>
+  <content>CommonPicture.ИсточникиПредложенияПоТоваруБЭД</content>
+  <content>CommonPicture.КоммерческоеПредложениеБЭД</content>
+  <content>CommonModule.КоммерческиеПредложенияДокументы</content>
+  <content>CommonPicture.ФлагВыбораНеУстановлен</content>
+  <content>CommonModule.КоммерческиеПредложенияДокументыПереопределяемый</content>
+  <content>CommonModule.КоммерческиеПредложенияДокументыКлиентПереопределяемый</content>
+  <content>CommonModule.КоммерческиеПредложенияДокументыКлиент</content>
+  <content>CommonModule.КоммерческиеПредложенияРаботаСHTML</content>
+  <content>CommonModule.КоммерческиеПредложенияДокументыКлиентСервер</content>
+  <content>CommonForm.МножественныйОтборСписка</content>
+  <content>DefinedType.СтавкаНДСБЭД</content>
+  <content>CommonPicture.ОтклонениеМеньшеБЭД</content>
+  <content>CommonPicture.ОтклонениеБольшеБЭД</content>
+  <content>CommonPicture.РазбитьСтрокуБС</content>
+  <content>CommonPicture.ЗагрузитьИзТСДБЭД</content>
+  <content>CommonModule.КоммерческиеПредложенияДокументыКлиентСерверПереопределяемый</content>
+  <content>DefinedType.КонтактноеЛицоБЭД</content>
+  <content>CommonPicture.ЗагрузкаИзФайлаБЭД</content>
+  <content>EventSubscription.ЗаписатьВерсиюДокументаБЭД</content>
+  <subsystems>ЗапросКоммерческихПредложенийПоставщиков</subsystems>
+  <subsystems>ЗапросКоммерческогоПредложенияОтКлиента</subsystems>
+  <subsystems>КоммерческоеПредложениеКлиенту</subsystems>
+  <subsystems>КоммерческоеПредложениеПоставщика</subsystems>
+  <parentSubsystem>Subsystem.ЭлектронноеВзаимодействие.Subsystem.КоммерческиеПредложения</parentSubsystem>
+</mdclass:Subsystem>
