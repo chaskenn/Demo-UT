@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="186e05f5-2a5c-438a-abdc-e52f60c1aa92">
+  <name>УчебнаяДоработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебная доработка</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="832f88ea-01f7-4cd5-8ef9-450630fee4a9"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="41b9835a-a664-4787-b1c5-eb49cd47cf91"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e86eaba1-b7bb-444f-adb3-207048d5bc00"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="cc92731e-c72d-4a3a-83e8-002678ffdb53"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b42532c6-86a5-4c24-ad7c-8a82c9bf4f09"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a6427b64-82d9-4124-b964-8d30e07b3583"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9afdb406-59a5-42f3-b2f5-144bfb63c160"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Учеб_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="06b4a178-6da1-404b-9f8c-e437e9ea3658" extendedConfigurationObject="ed1506c0-ae10-45f0-b356-945bab8ed3fd">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ИтогиФон</styleItems>
+  <styleItems>StyleItem.ЦветФонаВыделения</styleItems>
+  <commonPictures>CommonPicture.ВниманиеКрасный</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.Информация</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияПиктограммыТренда</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.ПревышениеЗаказа</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
+  <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
+  <commonPictures>CommonPicture.СостоянияСтрок</commonPictures>
+  <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
+  <documents>Document.ПриобретениеТоваровУслуг</documents>
+  <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.СтатусыДоговоровКонтрагентов</enums>
+  <enums>Enum.ХозяйственныеОперации</enums>
+</mdclass:Configuration>
