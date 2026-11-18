@@ -11,6 +11,7 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
   </extension>
   <useStandardCommands>true</useStandardCommands>
   <attributes uuid="e3e254d1-2970-4531-82df-1df9cd0a6c1e">
@@ -30,6 +31,46 @@
     <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24ce7947-6216-48c0-b04d-14e04be62445" extendedConfigurationObject="421edd92-2b38-4f12-aa73-f25cdff0897c">
+    <name>Валюта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="561c7daa-5624-4532-9baa-761d0ba8178a" extendedConfigurationObject="67f7a26a-0201-484f-ae9c-65078d524a61">
+    <name>СуммаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="0917d4b1-73aa-4f1b-b383-9df1dfa1bcc0" extendedConfigurationObject="79c90f60-5562-471b-b366-38c8a8868fb8">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
   </attributes>
   <forms uuid="0e69d132-3ffa-4ebd-9f0f-fa4ef43bab0b" extendedConfigurationObject="722c2de4-8735-450a-a358-569415c93a9b">
     <name>ФормаДокумента</name>

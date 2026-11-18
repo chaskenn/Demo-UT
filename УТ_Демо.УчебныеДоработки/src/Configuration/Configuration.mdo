@@ -54,6 +54,8 @@
   <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
   <commonPictures>CommonPicture.СостоянияСтрок</commonPictures>
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
+  <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
+  <catalogs>Catalog.Валюты</catalogs>
   <documents>Document.ПриобретениеТоваровУслуг</documents>
   <enums>Enum.СпособыДоставки</enums>
   <enums>Enum.СтатусыДоговоровКонтрагентов</enums>
